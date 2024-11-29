@@ -29,7 +29,7 @@ Este repositório documenta minha experiência de aprendizagem no uso de um **se
 ## Montagem do Circuito
 
 Para começar, montei o circuito no Arduino UNO utilizando um resistor de **10 Ω**. Posteriormente, adaptei a montagem ao ESP32.
-
+![circuitoArduino](imgs/circuito_arduino.png)
 
 
 ### Exemplo de Montagem no ESP32
