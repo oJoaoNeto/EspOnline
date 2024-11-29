@@ -75,4 +75,4 @@ Embora a calibração tenha melhorado a precisão do sensor FSR, ele ainda apres
 - [Stack Overflow: Unidade de Medida do FSR](https://stackoverflow.com/questions/61512292/what-is-the-unit-of-measure-for-the-pressure-data-i-collect-using-an-fsr-sesnor)
 
 ## pdf
--[pdf](Assests/Relatorio)
+-[pdf](Assests/Relatorio.pdf)
