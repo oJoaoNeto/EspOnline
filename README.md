@@ -18,6 +18,7 @@
 
 ## Introdução
 Este repositório documenta minha experiência de aprendizagem no uso de um **sensor FSR (Force-Sensitive Resistor)** para medir força utilizando um **ESP32**. O objetivo principal foi avaliar se o FSR pode ser empregado para medir força de forma mais detalhada.
+Obs: se o texto estiver confuso baixe o pdf.
 
 ## Plataformas Utilizadas
 
@@ -45,12 +46,15 @@ O sensor FSR não fornece diretamente um valor de força ao controlador. Em vez 
 
 1. **Precisão**: O sensor não é ideal para medições detalhadas de força, oferecendo apenas valores aproximados baseados na variação de tensão.
 2. **Erro de Medição**: Margem de erro inicial de **~1 N**, com dificuldades em ler forças muito pequenas ou muito grandes com precisão.
+3. [video 1](https://www.youtube.com/watch?v=DKGKrDX5jP0)
+
 
 ## Tentativas de Solução
 
 ### Calibração
 
 A calibração foi realizada para melhorar a precisão da leitura, reduzindo a margem de erro para **~0,15 N**. No entanto, essa solução não é a mais viável, pois exige recalibração a cada novo uso do sensor.
+[video 2](https://www.youtube.com/watch?v=IEwyw_3nZmA)
 
 ### Uso de Código do Fabricante
 
