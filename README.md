@@ -51,7 +51,7 @@ O sensor FSR não fornece diretamente um valor de força ao controlador. Em vez 
 2. **Erro de Medição**: Margem de erro inicial de **~1 N**, com dificuldades em ler forças muito pequenas ou muito grandes com precisão.
 3.video demontração e abaixo o codigo:
  [video 1](https://www.youtube.com/watch?v=DKGKrDX5jP0)
--[pdf](Assests/Relatorio.pdf)
+   [codigo da impresa modificado](Codes/CodImprModif.ino)
 
 
 ## Tentativas de Solução
@@ -59,13 +59,17 @@ O sensor FSR não fornece diretamente um valor de força ao controlador. Em vez 
 ### Calibração
 
 A calibração foi realizada para melhorar a precisão da leitura, reduzindo a margem de erro para **~0,15 N**. No entanto, essa solução não é a mais viável, pois exige recalibração a cada novo uso do sensor.
-[video 2](https://www.youtube.com/watch?v=IEwyw_3nZmA)
+-video com o codigo abaixo:
+   [video 2](https://www.youtube.com/watch?v=IEwyw_3nZmA)
+   -[codigo final](Codes/CodigoEspecifico.ino)
 
 ### Uso de Código do Fabricante
 
 Testei o código fornecido pelo fabricante do FSR, que apesar de melhorar a precisão, ainda apresentava erros:
 - Incapacidade de ler valores abaixo de **1 N** (erro corrigido parcialmente).
 - Extrapolação de valores, com erros de até **1,5 N** em determinadas medições.
+- codigo abaixo:
+     -[Codigo da Impresa](Codes/CodigoImpresa.ino)
 
 ## Conclusão
 
