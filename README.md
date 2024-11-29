@@ -15,7 +15,7 @@
    2. [Uso de Código do Fabricante](#uso-de-código-do-fabricante)
 8. [Conclusão](#conclusão)
 9. [Referências](#referências)
-10. [Pdf] (#pdf)
+10. [Pdf](#pdf)
 
 ## Obs: se o texto estiver confuso baixe o pdf.
 
