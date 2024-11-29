@@ -6,14 +6,15 @@
 
 1. [Introdução](#introdução)
 2. [Plataformas Utilizadas](#plataformas-utilizadas)
-3. [Montagem do Circuito](#montagem-do-circuito)
-4. [Funcionamento do Sensor FSR](#funcionamento-do-sensor-fsr)
-5. [Limitações Identificadas](#limitações-identificadas)
-6. [Tentativas de Solução](#tentativas-de-solução)
+3. [Início](#Inicio)
+4. [Montagem do Circuito](#montagem-do-circuito)
+5. [Funcionamento do Sensor FSR](#funcionamento-do-sensor-fsr)
+6. [Limitações Identificadas](#limitações-identificadas)
+7. [Tentativas de Solução](#tentativas-de-solução)
    1. [Calibração](#calibração)
    2. [Uso de Código do Fabricante](#uso-de-código-do-fabricante)
-7. [Conclusão](#conclusão)
-8. [Referências](#referências)
+8. [Conclusão](#conclusão)
+9. [Referências](#referências)
 
 ## Introdução
 Este repositório documenta minha experiência de aprendizagem no uso de um **sensor FSR (Force-Sensitive Resistor)** para medir força utilizando um **ESP32**. O objetivo principal foi avaliar se o FSR pode ser empregado para medir força de forma mais detalhada.
@@ -21,14 +22,15 @@ Este repositório documenta minha experiência de aprendizagem no uso de um **se
 ## Plataformas Utilizadas
 
 - **Tinkercad**: Inicialmente utilizado para simulação, mas sem suporte ao ESP32.
-- **Arduino UNO R3**: Usado como alternativa devido à falta de suporte ao ESP32 no Tinkercad.
-- **WOWKI**: Outra plataforma testada, mas também sem suporte ao FSR.
+  
 ## Inicio
   Iniciei os estudos utilizando o **Tinkercad**, já que não tinha acesso a uma plataforma física no momento. No entanto, enfrentei uma limitação: o ESP32 não está disponível no Tinkercad, o que me levou a usar um **Arduino UNO R3** como alternativa. Também explorei outras plataformas, como **WOWKI**, mas elas não oferecem suporte ao FSR.
 
 ## Montagem do Circuito
 
 Para começar, montei o circuito no Arduino UNO utilizando um resistor de **10 Ω**. Posteriormente, adaptei a montagem ao ESP32.
+
+
 
 ### Exemplo de Montagem no ESP32
 
