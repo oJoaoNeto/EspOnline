@@ -49,7 +49,9 @@ O sensor FSR não fornece diretamente um valor de força ao controlador. Em vez 
 
 1. **Precisão**: O sensor não é ideal para medições detalhadas de força, oferecendo apenas valores aproximados baseados na variação de tensão.
 2. **Erro de Medição**: Margem de erro inicial de **~1 N**, com dificuldades em ler forças muito pequenas ou muito grandes com precisão.
-3. [video 1](https://www.youtube.com/watch?v=DKGKrDX5jP0)
+3.video demontração e abaixo o codigo:
+ [video 1](https://www.youtube.com/watch?v=DKGKrDX5jP0)
+-[pdf](Assests/Relatorio.pdf)
 
 
 ## Tentativas de Solução
