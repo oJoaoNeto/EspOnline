@@ -15,10 +15,13 @@
    2. [Uso de Código do Fabricante](#uso-de-código-do-fabricante)
 8. [Conclusão](#conclusão)
 9. [Referências](#referências)
+10. [Pdf] (#pdf)
+
+## Obs: se o texto estiver confuso baixe o pdf.
 
 ## Introdução
 Este repositório documenta minha experiência de aprendizagem no uso de um **sensor FSR (Force-Sensitive Resistor)** para medir força utilizando um **ESP32**. O objetivo principal foi avaliar se o FSR pode ser empregado para medir força de forma mais detalhada.
-Obs: se o texto estiver confuso baixe o pdf.
+
 
 ## Plataformas Utilizadas
 
@@ -30,7 +33,7 @@ Obs: se o texto estiver confuso baixe o pdf.
 ## Montagem do Circuito
 
 Para começar, montei o circuito no Arduino UNO utilizando um resistor de **10 Ω**. Posteriormente, adaptei a montagem ao ESP32.
-![circuitoArduino](imgs/circuito_arduino.png)
+![circuitoArduino](Assests/circuito_arduino.png)
 
 
 ### Exemplo de Montagem no ESP32
@@ -70,3 +73,6 @@ Embora a calibração tenha melhorado a precisão do sensor FSR, ele ainda apres
 
 - [Tutorial ESP32 com FSR](https://esp32io.com/tutorials/esp32-force-sensor)  
 - [Stack Overflow: Unidade de Medida do FSR](https://stackoverflow.com/questions/61512292/what-is-the-unit-of-measure-for-the-pressure-data-i-collect-using-an-fsr-sesnor)
+
+## pdf
+-[pdf](Assests/Rela)
